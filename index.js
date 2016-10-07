@@ -1,8 +1,4 @@
-var fs = require('fs');			
-var ENCODING = 'utf8';		
-var INDEX = './index.js';
-  		  
-var filedata = fs.readFileSync(INDEX, ENCODING);	
-eval(filedata);		
-  		  
+var fs = require('fs');
+var filedata = fs.readFileSync('./index.js', 'utf8');
+eval(filedata);
 exports.ClipperLib = ClipperLib;
