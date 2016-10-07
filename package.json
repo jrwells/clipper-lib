@@ -1,6 +1,10 @@
 {
   "name": "clipper",
   "version": "1.0.0",
+  "repository" : {
+  	"type" : "git", 
+  	"url" : "https://github.com/jrwells/clipper-lib.git"
+  },
   "description": "NPM package wrapper for Clipper js library",
   "main": "index.js",
   "scripts": {
