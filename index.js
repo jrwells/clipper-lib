@@ -1,1 +1,1 @@
-exports.ClipperLib = require('./clipper.js');
+module.exports = require('./clipper.js');
