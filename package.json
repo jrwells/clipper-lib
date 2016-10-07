@@ -6,13 +6,9 @@
     "url": "https://github.com/jrwells/clipper-lib.git"
   },
   "description": "NPM package wrapper for Clipper js library",
-  "main": "bundle.js",
-  "scripts": {
-    "build": "browserify index.js -o bundle.js"
-  },
+  "main": "index.js",
+  "scripts": {},
   "author": "Angus Johnson",
   "license": "ISC",
-  "devDependencies": {
-    "browserify": "^13.1.0"
-  }
+  "devDependencies": {}
 }
